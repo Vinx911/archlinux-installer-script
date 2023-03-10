@@ -139,8 +139,8 @@ function install_dwm() {
 	mkdir -p ~/workspace
 	cd ~/workspace
 	git clone https://github.com/Vinx911/dwm.git
+	git clone https://github.com/Vinx911/st.git
 	git clone https://github.com/Vinx911/dwm_script.git ~/.dwm
-	git clone https://github.com/yaocccc/st
 	cd dwm && sudo make install clean
 	cd ..
 	cd st && sudo make install clean
